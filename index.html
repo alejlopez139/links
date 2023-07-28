@@ -1,1 +1,121 @@
-<p>My Link in Bio</p>
+<!doctype html>
+<html lang="en>"
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alejandro Lopez Links</title>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #55423d;
+        display: flex;
+        justify-content: center;
+      }
+      .name{
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+      .banner{
+        display: flex;
+        justify-content: center;
+      }
+      .social-icons{
+        display: flex;
+        justify-content: space-around;
+      }
+      .social-icons a{
+        color: #fffffe;
+        text-decoration:none;
+        
+      }
+      .link{
+        background-color: #ffc0ad;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .link a{
+        color: #271c19;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;   
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .items{
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+    </style>
+    
+  </head>
+<body>
+  <div class="items">
+  <div class="banner">
+    <img src="/Media/profile-pic.png" alt="Alejandro Lopez headshot" class="banner-image">
+  </div>
+
+  <div class="name">
+    Alejandro Lopez
+  </div>
+
+  <div class="social-icons">
+    <a href="https://github.com/raghubetina" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
+      LinkedIn
+    </a>
+
+    <a href="https://www.instagram.com/raghubetina/" target="_blank">
+      Instagram
+    </a>
+
+    <a href="https://twitter.com/raghubetina" target="_blank">
+      Twitter
+    </a>
+  </div>
+
+  <div class="link">
+    <img
+      src="/Media/fcb.png" class="thumbnail">
+
+    <a target="_blank" href="https://www.freecodecamp.org/news/how-to-start-a-blog-book/">How to Start A Blog - Flavio Copes</a>
+  </div>
+
+  <div class="link">
+    <img src="/Media/Code-Simplicity.png" class="thumbnail">
+
+    <a target="_blank"
+      href="https://www.codesimplicity.com/">Code Simplicity</a>
+  </div>
+
+  <div class="link">
+    <img
+      src="/Media/css-tricks.png" class="thumbnail">
+
+    <a target="_blank" href="https://css-tricks.com/5-mistakes-starting-react/">
+      5 Mistakes I made When Starting My First React Project - Richard Oliver Bray</a>
+  </div>
+  </div>
+
+  <!-- Etc, for as many links as you want -->
+</body>
+</html>
